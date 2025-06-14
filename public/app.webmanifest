@@ -1,0 +1,95 @@
+{
+  "name": "Stories App",
+  "short_name": "Stories",
+  "description": "A simple app to share stories with photos and locations.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFF2F9",
+  "theme_color": "#FA4EAB",
+  "icons": [
+    {
+      "src": "img/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "img/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "img/screenshots/StoriesApp_001.png",
+      "sizes": "1920x1043",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "View All Stories (Desktop)"
+    },
+    {
+      "src": "img/screenshots/StoriesApp_002.png",
+      "sizes": "1920x1043",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Story Detail View (Desktop)"
+    },
+    {
+      "src": "img/screenshots/StoriesApp_003.png",
+      "sizes": "1920x1043",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Add New Story Form (Desktop)"
+    },
+    {
+      "src": "img/screenshots/StoriesApp_004.png",
+      "sizes": "1080x2280",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "View All Stories (Mobile)"
+    },
+    {
+      "src": "img/screenshots/StoriesApp_005.png",
+      "sizes": "1080x2280",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Add New Story with Camera (Mobile)"
+    },
+    {
+      "src": "img/screenshots/StoriesApp_006.png",
+      "sizes": "1080x2280",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Bookmarked Stories (Mobile)"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Add New Story",
+      "short_name": "New Story",
+      "description": "Create a new story.",
+      "url": "/#/add-story",
+      "icons": [
+        {
+          "src": "img/icons/add-x512.png",
+          "type": "image/png",
+          "sizes": "512x512"
+        }
+      ]
+    },
+    {
+      "name": "Bookmarks Stories",
+      "short_name": "Bookmarks",
+      "description": "View saved stories.",
+      "url": "/#/bookmarks",
+      "icons": [
+        {
+          "src": "img/icons/bookmark-x512.png",
+          "type": "image/png",
+          "sizes": "512x512"
+        }
+      ]
+    }
+  ]
+}
