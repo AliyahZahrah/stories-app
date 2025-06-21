@@ -29,6 +29,10 @@ This is a Story Sharing application built with Vite and Vanilla JavaScript.
 
 The application interacts with the following API: `https://story-api.dicoding.dev/v1`
 
+## Live Demo
+
+You can view the live application here: [https://deluxe-tanuki-d300e7.netlify.app/](https://deluxe-tanuki-d300e7.netlify.app/)
+
 ## Setup and Running
 
 1.  **Clone the repository (if applicable)**
