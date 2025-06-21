@@ -43,7 +43,7 @@ You can view the live application here: [https://deluxe-tanuki-d300e7.netlify.ap
 3.  **Run the development server:**
 
     ```bash
-    npm run dev
+    npm run start-dev
     ```
 
     The application will typically be available at `http://localhost:9002`.
